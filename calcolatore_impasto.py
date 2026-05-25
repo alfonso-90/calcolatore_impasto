@@ -31,7 +31,7 @@ peso_totale_biga = farina_biga + acqua_biga + (lievito_biga / 1000)
 farina_rinfresco = farina_totale_req - farina_biga
 acqua_totale = farina_totale_req * idratazione_totale
 acqua_rinfresco = acqua_totale - acqua_biga
-sale_totale = farina_totale_req * percentage_sale
+sale_totale = farina_totale_req * percentuale_sale
 lievito_rinfresco = farina_totale_req * lievito_rinfresco_per_kg_totale
 
 peso_finale_impasto = farina_totale_req + acqua_totale + sale_totale + ((lievito_biga + lievito_rinfresco)/1000)
