@@ -2,10 +2,10 @@ import streamlit as st
 import math
 
 # Configurazione della pagina dello smartphone
-st.set_page_config(page_title="Pizzeria Bruno", page_icon="🍕", layout="centered")
+st.set_page_config(page_title="Calcolatore impasti", page_icon="🍕", layout="centered")
 
 # Grafica e Titoli
-st.title("🍕 Pizzeria Bruno")
+st.title("🍕 Calcolatori impasti per Rik Velluso")
 st.subheader("Sistema Bilanciamento Impasti Professionale")
 st.markdown("*Idratazione 73.4% | Biga al 50% idratata*")
 st.divider()
