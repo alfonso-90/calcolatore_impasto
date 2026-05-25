@@ -35,7 +35,7 @@ sale_totale = farina_totale_req * percentuale_sale
 lievito_rinfresco = farina_totale_req * lievito_rinfresco_per_kg_totale
 
 peso_finale_impasto = farina_totale_req + acqua_totale + sale_totale + ((lievito_biga + lievito_rinfresco)/1000)
-panetti_stimati = (peso_finale_impasto * 1000) / 250
+panetti_stimati = (peso_finale_impasto * 1000) / 280
 
 # --- MOSTRA I RISULTATI SULLO SCHERMO ---
 
