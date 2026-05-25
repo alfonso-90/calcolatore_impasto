@@ -66,6 +66,6 @@ with col7:
 st.divider()
 
 # Resoconto Finale della Massa
-st.success(f"📈 **Massa totale in uscita:** {round(peso_finale_impasto, 2)} kg | 🍕 **Panetti stimati (~250g):** {math.floor(panetti_stimati)} pz")
+st.success(f"📈 **Massa totale in uscita:** {round(peso_finale_impasto, 2)} kg | 🍕 **Panetti stimati (~280g):** {math.floor(panetti_stimati)} pz")
 
 st.caption("💡 *Consiglio di Bruno: Spezza la biga a pezzetti nell'acqua del rinfresco prima di aggiungere la farina!*")
